@@ -48,6 +48,7 @@ public enum ModUtils implements IMod {
     NotEnoughItems(ModIDs.NotEnoughItems),
     PamsHarvestCraft(ModIDs.PamsHarvestCraft),
     RandomThings(ModIDs.RandomThings),
+    StevesCarts2(ModIDs.StevesCarts2),
     StructureLib(ModIDs.StructureLib),
     TaintedMagic(ModIDs.TaintedMagic),
     Thaumcraft(ModIDs.Thaumcraft),
@@ -192,6 +193,7 @@ public enum ModUtils implements IMod {
         public static final String NotEnoughItems = "NotEnoughItems";
         public static final String PamsHarvestCraft = "harvestcraft";
         public static final String RandomThings = "RandomThings";
+        public static final String StevesCarts2 = "StevesCarts";
         public static final String StructureLib = "structurelib";
         public static final String TaintedMagic = "TaintedMagic";
         public static final String Thaumcraft = "Thaumcraft";

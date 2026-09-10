@@ -1,5 +1,6 @@
 package com.gtnewhorizon.cropsnh;
 
+import com.gtnewhorizon.cropsnh.compatibility.SC2.SC2CompatHandler;
 import com.gtnewhorizon.cropsnh.compatibility.StructureLib.StructureLibCompatHandler;
 import com.gtnewhorizon.cropsnh.compatibility.TiC.TiCCompatHandler;
 import com.gtnewhorizon.cropsnh.compatibility.betterbuilderswands.BetterBuildersWandsCompatHandler;
@@ -66,6 +67,7 @@ import gregtech.api.util.GTUtility;
     + "after:" + ModUtils.ModIDs.Thaumcraft + "; "
     + "after:" + ModUtils.ModIDs.Witchery + "; "
     + "after:" + ModUtils.ModIDs.TwilightForest + "; "
+    + "after:" + ModUtils.ModIDs.StevesCarts2 + "; "
     + "after:" + ModUtils.ModIDs.StructureLib + "; "
     + "after:" + ModUtils.ModIDs.PamsHarvestCraft + "; "
     + "after:" + ModUtils.ModIDs.BetterBuildersWands + "; "
@@ -111,6 +113,7 @@ public class CropsNH {
         OreDictLoader.init();
         WailaRegistry.onInit();
         TiCCompatHandler.onInit();
+        SC2CompatHandler.onInit();
         StructureLibCompatHandler.onInit();
         MTELoader.init();
         MTESeedGenerator.init();
